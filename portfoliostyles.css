@@ -1,4 +1,4 @@
-/* Common css section */
+/* Common CSS section */
 *{
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +7,8 @@
     font-family: sans-serif,Arial, Helvetica, sans-serif;
 }
 
-html,body{
+html,
+body{
     font-size: 14px;
     font-weight: 400;
     background: black;
@@ -15,19 +16,19 @@ html,body{
 }
 
 .container{
-    width: 400px;
+    width: 1100px;
     margin: 0px auto;
     display: table;
 }
 
-/* Menu Section */
+/* Menu section */
 .logo{
     font-size: 40px;
     font-weight: 600;
 }
 
 .span-col{
-    color: #ffbf35af;
+    color: #ffbf35;
 }
 
 nav{
@@ -36,31 +37,35 @@ nav{
 
 nav a{
     text-decoration: none;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: 500;
-    margin: 20px;
-    color: white;
+    margin-left: 20px;
+    color: #fff;
 }
 
-/* Main Banner */
+/* Main banner */
 .width-50{
     float: left;
     width: 50%;
 }
-.banner-section h1{
+
+.banner-section{
     width: 100%;
     float: left;
     margin-top: 25vh;
-
 }
 
+.banner-section h1{
+    font-size: 48px;
+    margin-top: 10px;
+    font-weight: bolder;
+}
 .banner-section h2{
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 10px;
     font-weight: 400;
     line-height: 25px;
 }
-
 .banner-section a{
     float: left;
     text-decoration: none;
@@ -68,7 +73,7 @@ nav a{
     margin-top: 20px;
     border-radius: 50%;
     text-align: center;
-    border: 2px solid#ffbf35;
+    border: 2px solid #ffbf35;
     color: #ffbf35;
     margin-left: 10px;
     height: 50px;
@@ -83,16 +88,17 @@ nav a{
     margin-left: 10%;
 }
 
-/* footer-section */
+/* Footer-section */
 .footer{
     background-color: #202020;
     padding: 30px 0px 40px 0px;
     width: 100%;
+    float: left;
 }
-.footer.sect{
+.footer-sect{
     color: #b3b3b3;
 }
-.footer.sect a{
+.footer-sect a{
     color: #b3b3b3;
     margin-left: 10px;
     text-decoration: none;
@@ -104,6 +110,6 @@ nav a{
     height: 50px;
     border: 1px solid #cdcdcd;
     line-height: 50px;
-    font-size: 50px;
+    font-size: 20px;
     border-radius: 50%;
 }
